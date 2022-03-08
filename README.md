@@ -3,7 +3,7 @@
 ## Funções
 
 <p>
-    Alem das 4 operações matematicas basicas, é tambem possivel o uso de numeros com virgula e negativos.
+    Alem das 4 operações matemáticas básicas, é tambem possivel o uso de números com virgula e negativos.
 </p>
 
 <h1 aling="center">
