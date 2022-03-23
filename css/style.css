@@ -93,6 +93,8 @@ body
 
 .buttons
 {
+   display: flex;
+   gap: 10px;
    grid-column: 1/3;
 }
 
@@ -129,8 +131,12 @@ body
 
 #send
 {
-    width: 266px;
-    margin-right: 10px;
+    width: 76%;
+}
+
+#del
+{
+    width: 24%;
 }
 
 .num
@@ -166,3 +172,72 @@ body
     background-color: var(--num);
 }
 
+@media (max-width:750px)
+{
+    .btns div > div 
+    {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width:550px)
+{
+    body,.calculadora
+    {
+        padding: 10px;
+    }
+
+    .btns 
+    {
+        padding: 10px;
+    }
+
+    .btns div > div 
+    {
+        padding: 1rem 3rem;
+    }
+    
+    #neg 
+    {
+        width: fit-content;
+    }
+
+    #send,#del 
+    {
+        padding: 1rem;
+    }
+}
+
+
+@media (max-width:390px)
+{
+    .btns div > div 
+    {
+        padding: .5rem 2.5rem;
+    }
+}
+
+@media (max-width:340px)
+{
+    .btns div > div 
+    {
+        padding: .5rem 2rem;
+    }
+}
+
+@media (max-width:300px)
+{
+    .btns div > div 
+    {
+        padding: .5rem 1.5rem;
+    }
+}
+
+@media (max-width:250px)
+{
+
+    .btns div > div 
+    {
+        padding: .5rem 1.2rem;
+    }
+}
