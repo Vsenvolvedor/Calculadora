@@ -12,4 +12,4 @@
 
 ## Veja o site dinamicamente
 
-<a href="https://viteydev.github.io/Calculadora//">Calculadora</a>
+<a href="https://vsenvolvedor.github.io/Calculadora/">Calculadora</a>
